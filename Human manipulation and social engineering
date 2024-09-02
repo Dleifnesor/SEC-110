@@ -13,3 +13,10 @@ variations of phishing
 --Whaling - a type of spear-phishing attack directed at high-level executives where attackers masquerade as legitimate, known and trusted entities and encourage a victim to share highly sensitive information or to send a wire transfer to a fraudulent account.
 --Vishing - using phone calls to trick people into giving away sensitive information
 --Smishing - a social engineering attack that uses fake mobile text messages to trick people into downloading malware, sharing sensitive information or sending money to cybercriminals.
+
+Social engieering impersonation - masquerading as a real or fictitoous character (pretending to be an executive or supervisor)
+--watering hole attack - directed toward a smaller group of people such as the major executives working for a manufacturing company, these executives a;; tend to visit similar websites
+--dumpster diving - involves digging through trash to find info that can be useful in an attack
+--google dorking - involves trying to find publicly acessible info on the web to use against unsuspecting victims
+--shoulder surfing - is exactly what is sounds like, causually observing someone inputting sensitive information without drawing attention to themselves
+
