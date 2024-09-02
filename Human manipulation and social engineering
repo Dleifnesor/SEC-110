@@ -20,3 +20,9 @@ Social engieering impersonation - masquerading as a real or fictitoous character
 --google dorking - involves trying to find publicly acessible info on the web to use against unsuspecting victims
 --shoulder surfing - is exactly what is sounds like, causually observing someone inputting sensitive information without drawing attention to themselves
 
+Sensors --
+IR sensor - detects the prescence of heat
+Pressure sensor - detects physical prescense
+mantrap - a security buffer where a user shows credentials to open the first door where their credentials can be checked before a second door that they must pass is unlocked
+in areas with medium security a reception area can be used
+in low security applications a waiting room can be used.
